@@ -15,22 +15,6 @@ Download the HTML, CSS, and jQuery. Make a copy of this file: https://docs.googl
 
 File -> Publish to the web -> publish the entire document (be sure to keep content in the first sheet). 
 
-Select and copy the key: /d/ to /pubhtml
+Select and copy the string of letters/number between: /d/ and /pubhtml
 
- the index.html
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+On line 30 of the index.html, replace the string of letters/number between: /list/ and /1/public/ with the string of numbers/letters you copied from the Google spreadsheet.
