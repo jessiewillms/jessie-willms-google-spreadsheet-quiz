@@ -1,0 +1,87 @@
+.wrapper {
+  max-width: 540px;
+  opacity: 0;
+}
+h1, p {
+  font-family: "Raleway";
+  padding-bottom: 3%;
+}
+p {
+  line-height: 1.5;
+}
+header {
+  width: 100%;
+  padding: 3%;
+  .header-photo {
+    padding-bottom: 5%;
+  }
+}
+.mark {
+  width: 10px;
+  margin-right: 10px;
+  height: 10px;
+  display: inline-block;
+}
+.question-wrap {
+  padding: 3% 0;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.the-question {
+  padding: 1.5% 3%;
+  p {
+    font-weight: 700;
+  }
+}
+
+.the-options {
+  padding: 3%;
+  cursor: pointer;
+  p {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3% 5%;
+    cursor: pointer;
+    margin: 1% 0;
+    &:first-letter {
+      font-weight: 600;
+      color: #a1cdeb;
+    }
+  }
+}
+.tally {
+  display: none;
+  text-align: center;
+  padding: 3%;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.the-answers {
+  display: none;
+  min-height: 100px;
+  padding: 3%;
+  border-left: 3px solid #133c58;
+  margin-left: 25px;
+}
+
+.yes,
+.no {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.correct-style {
+  background: #a1cdeb;
+  transition: background 1.5s;
+}
+
+.incorrect-style {
+  background: #d4d4d4;
+  transition: background 1.5s;
+}
+
+.yellow {
+  background: yellow;
+}
